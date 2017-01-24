@@ -1,5 +1,5 @@
-# docker-alp-nginx
-Installs avahi-daemon into an Alpine Linux container
+# docker-ubu-nginx
+Installs avahi-daemon into an Ubuntu Linux container
 
 ![nginx](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Avahi-logo.svg/84px-Avahi-logo.svg.png)
 
@@ -17,7 +17,7 @@ http://www.avahi.org/
       -v /var/run/dbus:/var/run/dbus \
       -e DOCKUID=<UID default:106> \
       -e DOCKGID=<GID default:111> \
-         digrouz/docker-alp-avahi
+         digrouz/docker-ubu-avahi
 
 ## Environment Variables
 
