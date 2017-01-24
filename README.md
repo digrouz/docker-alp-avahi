@@ -1,4 +1,4 @@
-# docker-ubu-nginx
+# docker-ubu-avahi
 Installs avahi-daemon into an Ubuntu Linux container
 
 ![avahi](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Avahi-logo.svg/84px-Avahi-logo.svg.png)
@@ -34,3 +34,4 @@ This variable is not mandatory and specifies the group id that will be set to ru
 ## Notes
 
 * The docker entrypoint will upgrade operating system at each startup.
+* It is assumed that the host is running the `dbus` daemon and share the socket through /var/run/dbus with this container. This is a requirement to have `mdns` support.
