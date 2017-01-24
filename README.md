@@ -1,7 +1,7 @@
 # docker-ubu-nginx
 Installs avahi-daemon into an Ubuntu Linux container
 
-![nginx](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Avahi-logo.svg/84px-Avahi-logo.svg.png)
+![avahi](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Avahi-logo.svg/84px-Avahi-logo.svg.png)
 
 ## Description
 
