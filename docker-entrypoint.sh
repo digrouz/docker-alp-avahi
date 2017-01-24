@@ -70,7 +70,7 @@ if [ "$1" = 'avahi' ]; then
   until [ -e /var/run/dbus/system_bus_socket ]; do
     sleep 1s
   done
-  exec avahi-daemon --no-chroot & 
+  exec avahi-daemon --no-chroot
 fi
 
 exec "$@"
