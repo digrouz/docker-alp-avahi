@@ -31,7 +31,7 @@ RUN apt-get update && \
 VOLUME ["/var/run/dbus"]
 
 ### Expose ports
-#EXPOSE 666
+EXPOSE 5353
 
 ### Running User: not used, managed by docker-entrypoint.sh
 #USER avahi
