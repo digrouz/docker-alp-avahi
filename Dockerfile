@@ -1,6 +1,5 @@
-# vim:set ft=dockerfile:
 FROM ubuntu:latest
-MAINTAINER DI GREGORIO Nicolas "nicolas.digregorio@gmail.com"
+LABEL maintainer "DI GREGORIO Nicolas <nicolas.digregorio@gmail.com>"
 
 ### Environment variables
 ENV DEBIAN_FRONTEND='noninteractive' \
